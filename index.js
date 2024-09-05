@@ -14,7 +14,7 @@ console.log(`user prefers a ${drinktype} Regular`); //results
 
 let cansLeft = 3; // Any number of cans
 let stockmessage = cansLeft >5 ? 'time to restock':'we are stocked'// ternary operator to check for stock
-console.log(``);
+console.log(stockmessage);
 
 
 // #### Challenge 3: Workout Intensity

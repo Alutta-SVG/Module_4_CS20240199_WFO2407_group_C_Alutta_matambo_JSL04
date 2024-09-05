@@ -6,7 +6,7 @@
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 let drinktype = userPreference ? userPreference : "regular"; //ternary operator to check preference
-console.log(``);
+console.log(`user prefers a ${drinktype} variety`); //results
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 

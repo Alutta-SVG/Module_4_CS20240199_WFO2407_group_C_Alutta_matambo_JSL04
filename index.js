@@ -6,7 +6,7 @@
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 let drinktype = userPreference ? userPreference : "regular"; //ternary operator to check preference
-console.log(`user prefers a ${drinktype} Regular`); //results
+console.log('user prefers a ${drinktype} Regular'); //results
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
@@ -23,7 +23,7 @@ console.log(stockmessage);//results
 
 let heartRate = 95; // Current heart rate in bpm
 let heartRateMessage = heartRate >95 ? 'Boost needed!':'Energy levels are high!';//ternary operator to check heartRate
-console.log(`heartRateMessage`);//results
+console.log(heartRateMessage);//results
 
 
 // #### Challenge 4: Temperature Suitability
@@ -32,7 +32,7 @@ console.log(`heartRateMessage`);//results
 
 let currentTemp = 4; // Current temperature in °C
 let currentTempMessage = currentTemp < 5 ? 'Chilled to perfection!':'Needs a cooler!'// ternary operator to check tempreture 
-console.log(``);
+console.log(currentTempMessage);
 
 
 // #### Challenge 5: Late Night Coding Session

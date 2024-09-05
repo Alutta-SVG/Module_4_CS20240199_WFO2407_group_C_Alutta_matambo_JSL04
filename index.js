@@ -32,7 +32,7 @@ console.log(heartRateMessage);//results
 
 let currentTemp = 4; // Current temperature in °C
 let currentTempMessage = currentTemp < 5 ? 'Chilled to perfection!':'Needs a cooler!'// ternary operator to check tempreture 
-console.log(currentTempMessage);
+console.log(currentTempMessage); // added notes
 
 
 // #### Challenge 5: Late Night Coding Session

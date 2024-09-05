@@ -47,7 +47,7 @@ let currentHour = 22;
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 let monsterEnergyMessage = currentHour >= 7 && currentHour < 23 ? 'Unleash the beast!' : 'Better stck to water.';// ternary to check hour
-
+console.log (monsterEnergyMessage);
 
 
 // In each of these challenges, the ternary operator is used to decide between two options based on a condition, 

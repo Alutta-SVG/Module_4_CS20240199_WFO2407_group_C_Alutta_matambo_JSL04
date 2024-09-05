@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-let drinktype = userPreference ? userPreference : "Regular"; //ternary operator to check preference
+let drinktype = userPreference === 'Sugar-free' ? 'Regular': 'Sugar-free'; //ternary operator to check preference
 console.log(`user prefers a ${drinktype} variety`); //results
 
 // #### Challenge 2: Stock Check
@@ -22,7 +22,7 @@ console.log(stockmessage);//results
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-let heartRateMessage = heartRate >95 ? 'Boost needed!':'Energy levels are high!';//ternary operator to check heartRate
+let heartRateMessage = heartRate <95 ? 'Boost needed!':'Energy levels are high!';//ternary operator to check heartRate
 console.log(heartRateMessage);//results
 
 

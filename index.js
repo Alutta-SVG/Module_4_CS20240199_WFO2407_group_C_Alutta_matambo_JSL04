@@ -23,7 +23,7 @@ console.log(stockmessage);
 
 let heartRate = 95; // Current heart rate in bpm
 let heartRateMessage = heartRate >95 ? 'Boost needed!':'Energy levels are high!';//ternary operator to check heartRate
-console.log(``);
+console.log(`heartRateMessage`);
 
 
 // #### Challenge 4: Temperature Suitability

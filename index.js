@@ -14,7 +14,7 @@ console.log(`user prefers a ${drinktype} Regular`); //results
 
 let cansLeft = 3; // Any number of cans
 let stockmessage = cansLeft >5 ? 'time to restock':'we are stocked'// ternary operator to check for stock
-console.log(stockmessage);
+console.log(stockmessage);//results
 
 
 // #### Challenge 3: Workout Intensity
@@ -23,7 +23,7 @@ console.log(stockmessage);
 
 let heartRate = 95; // Current heart rate in bpm
 let heartRateMessage = heartRate >95 ? 'Boost needed!':'Energy levels are high!';//ternary operator to check heartRate
-console.log(`heartRateMessage`);
+console.log(`heartRateMessage`);//results
 
 
 // #### Challenge 4: Temperature Suitability

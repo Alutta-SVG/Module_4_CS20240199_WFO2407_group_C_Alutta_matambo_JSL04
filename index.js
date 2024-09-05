@@ -46,9 +46,7 @@ let currentHour = 22;
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
-
-
-
+let monsterEnergyMessage = currentHour >= 7 && currentHour < 23 ? 'Unleash the beast!' : 'Better stck to water.';// ternary to check hour
 
 
 

@@ -13,7 +13,7 @@ console.log(`user prefers a ${drinktype} variety`); //results
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-let stockmessage = cansLeft >5 ? 'time to restock':'we are stocked'// ternary operator to check for stock
+let stockmessage = cansLeft < 5 ? 'time to restock':'we are stocked'// ternary operator to check for stock
 console.log(stockmessage);//results
 
 

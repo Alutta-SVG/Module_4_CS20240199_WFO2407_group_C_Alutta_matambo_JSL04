@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-let drinktype = userPreference === 'Sugar-free' ? 'Regular': 'Sugar-free'; //ternary operator to check preference
+let drinktype = userPreference === 'Sugar-free' ? 'Sugar-free': 'Regular'; //ternary operator to check preference
 console.log(`user prefers a ${drinktype} variety`); //results
 
 // #### Challenge 2: Stock Check

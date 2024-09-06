@@ -6,14 +6,14 @@
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 let drinktype = userPreference === 'Sugar-free' ? 'Sugar-free': 'Regular'; //ternary operator to check preference
-console.log(`user prefers a ${drinktype} variety`); //results
+console.log(`User prefers a ${drinktype} variety`); //results
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-let stockmessage = cansLeft < 5 ? 'time to restock':'we are stocked'// ternary operator to check for stock
+let stockmessage = cansLeft < 5 ? 'Time to restock':'We are stocked'// ternary operator to check for stock
 console.log(stockmessage);//results
 
 
